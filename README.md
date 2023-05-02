@@ -7,7 +7,6 @@
 </p>
 <br><br>
 <hr>
-<img src="img/HTML.webp" align="right" width="400">
 
 ### Tópicos 
 
