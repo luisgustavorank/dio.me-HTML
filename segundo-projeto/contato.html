@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt_bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica PetLove</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+            </ul>
+            <ul>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <ul>
+                <li><a href="sobre.html">Sobre nós</a></li>
+            </ul>
+            <ul>
+                <li><a href="horarios.html">Horário de Atendimento</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+
+            <!-- Cabeçalho -->
+            <div class="header" align="center">
+                <img src="assets/imagens/petlove_logo.png" alt="Logo PetLove" width="350">
+            </div>
+
+            <!-- Conteúdo -->
+            <div class="content">
+                <div id="texto-contato1">
+                    <h3>Endereço:</h3>
+                    <p>
+                        Avenida São Sebastião, 1687<br>
+                        Bairro Nossa S. de Fátima<br>
+                        Parnaíba/PI<br>
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.677605565955!2d-41.7668512262399!3d-2.9088375395497463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ec2ff9c053ce9f%3A0x47608e54dfb74944!2sAv.%20S%C3%A3o%20Sebasti%C3%A3o%2C%201687%20-%20Nossa%20Sra.%20de%20F%C3%A1tima%2C%20Parna%C3%ADba%20-%20PI%2C%2064202-020!5e0!3m2!1spt-BR!2sbr!4v1683049551787!5m2!1spt-BR!2sbr" width="330" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>         
+                    <br><hr>
+                    <h3>Contato:</h3>
+                    <p>
+                        Fone: (86) 3402-1310<br>
+                        <a href="mailto:clinicapetlove@hotmail.com">clinicapetlove@hotmail.com</a>
+                    </p>
+                </div>
+                <div id="texto-contato2">
+                    <h3>Se preferir, deixe uma mensagem e entraremos em contato!</h3>
+                    <form name="contato" onsubmit="alert('Agradecemos seu interesse, entraremos em contato em breve!');" method="POST" action="#">
+                        <label>Nome</label><br>
+                        <input type="text" placeholder="Digite seu nome" title="Favor inserir seu nome"><br>
+                        <label>Email</label><br>
+                        <input type="email" placeholder="Digite seu email" title="Favor inserir um email válido"><br>
+                        <label>Telefone</label><br>
+                        <input type="number" placeholder="Digite seu telefone"><br>
+                        <label>Mensagem</label><br>
+                        <textarea cols="50" rows="5" placeholder="Digite sua mensagem..." title="Favor inserir uma mensagem"></textarea> <br>                   
+						<button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Rodapé -->
+            <div class="footer">
+                <p>
+                    Copyright 2023 © Todos os direitos reservados à Petlove<br>
+                    CNPJ: 90.279.654/0001-99*
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+html, body, h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    margin-top: 2px;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.content a {
+    color: rgba(155, 96, 152, 0.87);
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #7a3ca3;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgba(155, 96, 152, 0.87);
+    max-height: 350px;
+}
+.content {
+    background-color: white;
+    padding: 15px;
+    min-height: 387px;
+}
+.footer {
+    clear: both;
+    background-color:  rgba(155, 96, 152, 0.87);
+    min-height: 60px;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+#imagem-principal {
+    margin-left: -15px;
+    float: right;
+}
+
+#texto-principal {
+    margin-top: 35px;
+    margin-left: 15px;
+    width: 450px;
+    float: left;
+}
+
+#texto-contato1 {
+    width: 330px;
+    float: left;
+}
+
+#texto-contato2 {
+    width: 500px;
+    float: right;
+}
+
+table {
+    margin: 15px auto 15px auto;
+}
+
+table th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+table tr:nth-child(even) td{
+    background-color: rgba(160, 159, 160, 0.87);
+}
+
+table thead, tfoot {
+    background-color: #7a3ca3;
+    color: #f1f1f1;
+}
+
